@@ -2,8 +2,7 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 1: Erste Schritte in C
-- [Slides](http://www.tamberg.org/fhnw/2020/hs/Syspr01ErsteSchritteInC.pdf)
-- [Handout](http://www.tamberg.org/fhnw/2020/hs/Syspr01ErsteSchritteInCHandout.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2023/hs/Syspr01ErsteSchritteInC.pdf)
 
 ## Beispiele
 - [arr_ptr.c](arr_ptr.c)
@@ -15,6 +14,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [hello.c](hello.c)
 - [limits.c](limits.c)
 - [odd.c](odd.c)
+- [quine.c](quine.c)
 - [sizeof.c](sizeof.c)
 - [strings.c](strings.c)
 - [structs.c](structs.c)
@@ -28,6 +28,6 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 
 ## Lösungsvorschlag
 - [args.c](args.c)
-- [range.c](range.c)
+- [sizeof.c](sizeof.c)
 - [tree.c](tree.c)
 - [tree_v2.c](tree_v2.c)

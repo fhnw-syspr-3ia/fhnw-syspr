@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     typedef struct point { int x; int y; } Point;
     Point p = { 3, 2 };
     Point q;
     q.x = p.y;
+    q.y = 0;
     printf("p = (%d, %d)\n", p.x, p.y);
     printf("q = (%d, %d)\n", q.x, q.y);
     typedef struct rectangle { Point a; Point b; } Rectangle;

@@ -1,19 +1,19 @@
 #include <stdio.h>
 
-int power(int base, int n) {
-    int result = 1;
+int power(int b, int n) {
+    int p = 1;
     while (n > 0) {
-        result *= base;
+        p = p * b;
         n--;
     }
     // n == 0
-    return result;
+    return p;
 }
 
-int main() {
-    int b = 2;
-    int n = 5;
-    int p = power(b, n);
-    printf("%d^%d = %d\n", b, n, p);
+int main(void) {
+    int a = 2;
+    int m = 5;
+    int q = power(a, m);
+    printf("%d^%d = %d\n", a, m, q);
     return 0;
 }

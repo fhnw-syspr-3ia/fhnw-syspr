@@ -9,18 +9,18 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 3. [File In-/Output](03/README.md)
 4. [Prozesse und Signale](04/README.md)
 5. [Prozess Lebenszyklus](05/README.md)
-6. [Assessment I](06/README.md)
-7. [Threads und Synchronisation](07/README.md)
+6. [Threads und Synchronisation](06/README.md)
+7. [Assessment I](07/README.md)
 8. [IPC mit Pipes](08/README.md)
 9. [Sockets](09/README.md)
 10. [POSIX IPC](10/README.md)
 11. [Zeitmessung](11/README.md)
-12. <s>[Terminals](12/README.md)</s>
+12. [Terminals](12/README.md)
 13. [Assessment II](13/README.md)
-14. [Weitere Arten von I/O](14/README.md)
+14. [Abschluss](14/README.md)
 
 ## Git
-Auf dem Raspberry Pi
+Auf Linux
 
 * Repository klonen:<pre>
     $ cd ~
@@ -39,7 +39,7 @@ Soweit nicht anders vermerkt, gilt:
 
 Eigenen Code publizieren?
 
-* [Wählen Sie eine open source Lizenz](https://choosealicense.com/), z.B. die einfache [MIT License](https://choosealicense.com/licenses/mit/)
+* [Wählen Sie eine open source Lizenz](https://choosealicense.com/), z.B. die einfache [MIT License](https://choosealicense.com/licenses/mit/).
 
 ## Support
-[FHNW syspr Slack](https://fhnw-syspr.slack.com/)
+FHNW syspr Teams.
