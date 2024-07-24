@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 struct node {
-    char *label;
+    char label[32];
     struct node *left;
     struct node *right;
 };
@@ -10,27 +11,27 @@ struct node {
 int main(void) {	
     // allocate nodes, on the heap
     struct node *ll = malloc(sizeof(struct node));
-    ll->label = "left left";
+    strcpy(ll->label, "left left");
     ll->left = NULL;
     ll->right = NULL;
 
     struct node *lr = malloc(sizeof(struct node));
-    lr->label = "left right";
+    strcpy(lr->label, "left right");
     lr->left = NULL;
     lr->right = NULL;
 
     struct node *l = malloc(sizeof(struct node));
-    l->label = "left";
+    strcpy(l->label, "left");
     l->left = ll;
     l->right = lr;
 
     struct node *r = malloc(sizeof(struct node));
-    r->label = "right";
+    strcpy(r->label, "right");
     r->left = NULL;
     r->right = NULL;
 
     struct node *root = malloc(sizeof(struct node));
-    root->label = "root";
+    strcpy(root->label, "root");
     root->left = l;
     root->right = r;
 
